@@ -37,7 +37,7 @@ def load_data():
 
 def main():
     data = load_data()
-    print(len(data))
+    print(data[0].keys())
     return
 
 if __name__ == '__main__':
