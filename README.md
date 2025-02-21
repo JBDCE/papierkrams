@@ -8,4 +8,11 @@ Repository um Steuererklärungsunterlagen aus meiner Paperless Instanz zu laden 
  - Ausgabe als CSV Datei mit den Spalten: Empfänger, Eingangsdatum, Betrag
 
 ## Benutzung
-Das weiß ich doch selber noch nicht. Idealerweise aber garnicht. Die Daten dafür fallen hoffentlich auf Knopfdruck aus meinem Generator raus
+
+### Windows
+ - Ordner in der Powershell öffnen
+ - Virtualenv Initialisieren: `python3 -m venv venv`
+ - Virtualenv aktivieren: `.\venv\bin\activate.ps1`
+ - Abhängigkeiten installieren `pip install -r requirements.txt`
+ - Evtl. Konfiguration anpassen
+ - Main Skript ausführen `python3 -m main`
