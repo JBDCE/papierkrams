@@ -2,3 +2,4 @@ venv
 secret.py
 samplefile.json
 *.pyc
+*.csv*
