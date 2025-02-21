@@ -21,14 +21,11 @@ def load_data():
             params={
                 'page': page_counter,
                 'format': 'json',
+                'ordering': 'created',
             },
             auth=(secret.username, secret.password)
         )
-
         result = loads(raw_res.text)
-
-        print(result.get('next'))
-
         output.extend(result.get('results'))
         if not result.get('next'):
             break
